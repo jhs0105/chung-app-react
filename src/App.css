@@ -2,6 +2,10 @@ body {
   font-size: 18px;
   color: #333;
 }
+.container {
+  width: 65%;
+  margin: 100px 80px;
+}
 
 h1 {
   margin: 0;

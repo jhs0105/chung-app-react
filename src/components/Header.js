@@ -83,14 +83,14 @@ function Header() {
                 쿡앤쿡 레시피
                 <ul className="depth03">
                   <li>베지밀 레시피</li>
-                  <li>간단요리사 레시피</li>
-                  <li>콩국물 레시피</li>
+                  <li>간단요리사 레시피🡭</li>
+                  <li>콩국물 레시피🡭</li>
                 </ul>
               </li>
               <li>
                 공식 쇼핑몰
                 <ul className="depth03">
-                  <li>이데이몰</li>
+                  <li>이데이몰🡭</li>
                 </ul>
               </li>
             </ul>
@@ -194,7 +194,7 @@ function Header() {
           <li>로그인</li>
           <li>회원가입</li>
           <li>
-            <i class="fa-solid fa-bars"></i>
+            <i className="fa-solid fa-bars"></i>
           </li>
         </ul>
       </div>
@@ -205,6 +205,7 @@ function Header() {
 const Headers = styled.header`
   background-color: #fff;
   position: absolute;
+  z-index: 99;
   top: 0;
   padding: 0 20px;
   display: flex;
@@ -278,11 +279,13 @@ const Headers = styled.header`
             font-size: 17px;
             font-weight: 600;
             .depth03 {
-              font-size: 15px;
-              font-weight: 500;
-              padding: 10px 0;
+              font-size: 14px;
+              font-weight: 600;
+              color: #888;
+              padding: 20px 0;
               li {
                 padding: 5px 0;
+                text-align: center;
               }
             }
           }
