@@ -52,7 +52,7 @@ const Wrapper = styled.div`
   }
   .image-box {
     width: 65%;
-    height: 500px;
+    height: 460px;
     background-size: cover;
     background-position: 50% 50%;
     border-radius: 30px;
@@ -67,6 +67,7 @@ const Wrapper = styled.div`
     border: 1px solid #ccc;
     border-radius: 10px;
     width: 30%;
+    height: 460px;
     box-sizing: border-box;
     padding: 0 40px;
     h3 {
@@ -81,7 +82,7 @@ const Wrapper = styled.div`
         border-bottom: 1px solid #ccc;
       }
       img {
-        width: 100px;
+        width: 80px;
       }
       p {
         margin-left: 10px;
