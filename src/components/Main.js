@@ -4,6 +4,7 @@ import SubSlide from "../components/SubSlide";
 import Row01 from "./Row01";
 import Rnd from "../components/Rnd";
 import Sample from "./Sample";
+import BestProduct from "./BestProduct";
 function Main() {
   return (
     <>
@@ -12,6 +13,7 @@ function Main() {
       <Row01></Row01>
       <Rnd></Rnd>
       <Sample></Sample>
+      <BestProduct></BestProduct>
     </>
   );
 }
