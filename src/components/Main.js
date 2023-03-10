@@ -5,6 +5,9 @@ import Row01 from "./Row01";
 import Rnd from "../components/Rnd";
 import Sample from "./Sample";
 import BestProduct from "./BestProduct";
+import Feedback from "./Feedback";
+import Recipe from "./Recipe";
+import Sns from "./Sns";
 function Main() {
   return (
     <>
@@ -14,6 +17,9 @@ function Main() {
       <Rnd></Rnd>
       <Sample></Sample>
       <BestProduct></BestProduct>
+      <Feedback></Feedback>
+      <Recipe></Recipe>
+      <Sns></Sns>
     </>
   );
 }

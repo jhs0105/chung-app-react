@@ -83,7 +83,7 @@ const Wrapper = styled.footer`
   border-top: 1px solid #333;
   display: flex;
   justify-content: space-between;
-  padding: 100px 50px;
+  padding: 80px 50px;
   .list-box {
     > ul {
       display: flex;
