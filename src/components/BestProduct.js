@@ -69,7 +69,7 @@ function BestProduct() {
             })
             .map((item, idx) => {
               return (
-                <li>
+                <li key={idx}>
                   <img src={item.image} alt="" />
                   <h3>{item.title}</h3>
                   <p>{item.contents}</p>
@@ -94,6 +94,7 @@ const Wrapper = styled.div`
       li {
         font-size: 15px;
         padding: 15px 50px;
+        cursor: pointer;
         &.on {
           background-color: black;
           color: #fff;

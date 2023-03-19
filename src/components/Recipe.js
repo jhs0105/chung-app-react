@@ -28,7 +28,7 @@ function Recipe() {
       <ul className="list">
         {recipe.map((item, idx) => {
           return (
-            <li>
+            <li key={idx}>
               <img src={item.image} alt="" />
               <p>{item.title}</p>
             </li>
@@ -75,6 +75,8 @@ const Wrapper = styled.div`
       p {
         font-size: 15px;
         font-weight: 600;
+        text-align: center;
+        margin-top: 5px;
       }
     }
   }

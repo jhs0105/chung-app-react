@@ -9,7 +9,7 @@ function Feedback() {
       <ul>
         {feedback.map((item, idx) => {
           return (
-            <li>
+            <li key={idx}>
               <div className="image-box">
                 <img src={item.image} alt="" />
               </div>
